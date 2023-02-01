@@ -1,0 +1,5 @@
+l = float(input('Insira a largura da sua parede: '))
+h = float(input('Insira a altura da sua parede: '))
+print('Sua parede tem dimensões {:.2f}x{:.2f} e aréa de {:.2f} metros quadrados'.format(l,h,(l*h)))
+print('Levando em conta que a cada 2 metros quadrados, é necessário 1 litro de tinta.')
+print('Vai ser necessário {} litros de tinta para sua parede'.format(((l*h)/2)))
