@@ -1,0 +1,6 @@
+nome = str(input('Insira seu nome: ')).strip()
+letras = len(nome) - nome.count(' ')
+print(f'{nome.upper()} é o seu nome maiúsculo')
+print(f'{nome.lower()} é o seu nome minúsculo')
+print(f'{letras}')
+print(f'{(nome.split())[0]} é o seu primeiro nome')
